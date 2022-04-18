@@ -81,7 +81,9 @@
                       </p>
                       <button class="btn btn-dark block-text__btn">Learn more</button>
                     </div>
-                    <div> <img src="../assets/img/listening.img.png" alt="Photo" class="speaking__img"></div>
+                    <div>
+                      <img src="../assets/img/listening.img.png" alt="Photo" class="speaking__img">
+                    </div>
                   </div>
                 </div>
               </div>
@@ -141,9 +143,68 @@
               <p class="price-text"><span class="price">£5.99</span> per month</p>
             </div>
           </div>
+          <div class="block-flex-one">
+            <img src="../assets/img/live-classes.png" alt="Photo" class="block-flex-img">
+            <h3 class="block-flex__title title-h2">Live online classes</h3>
+            <p class="block-flex__subtitle subtitle">
+              Interactive group classes with expert
+              teachers. Free 7-day trial
+            </p>
+            <div class="block-flex__price text-center mar-top">
+              <p class="price-text"><span class="price">£12.99</span> per month</p>
+            </div>
+          </div>
+          <div class="block-flex-one">
+            <img src="../assets/img/personal-tutorial.png" alt="Photo" class="block-flex-img">
+            <h3 class="block-flex__title title-h2">Personal Tuition</h3>
+            <p class="block-flex__subtitle subtitle">
+              Online one-to-one English tutoring – enjoy
+              our first session for only $1
+            </p>
+            <div class="block-flex__price text-center">
+              <p class="price-text"><span class="price">£20.99</span> per month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parent__contact-us">
+        <div class="contact-us__container-flex">
+          <div class="container-flex__left">
+            <img src="../assets/img/contact-us-img.png" alt="Photo" class="left__img">
+          </div>
+          <div class="container-flex__right">
+            <h2 class="right__title title-h2">Contact Us</h2>
+            <p class="right__subtitle">
+              Discover your current English level by taking our free
+              online English test.Sign up to our newsletter for learning
+              tips and free resource
+            </p>
+            <div class="right__block-input">
+              <input type="text" class="block-input__input" placeholder="Enter Your E-mail">
+              <button class="block-input__btn btn-dark">Subscribe</button>
+            </div>
+          </div>
         </div>
       </div>
     </main>
+    <footer class="parent__footer">
+      <div class="container">
+        <div class="footer-flex">
+          <div class="footer__block-left">
+            <a class="navbar-brand" href="#">
+              <img src="../assets/img/Logo.svg" alt="Logo" width="106" height="54">
+            </a>
+          </div>
+          <div class="footer__block-right">
+            <ul class="footer__list">
+              <li class="list-item"><a href="#" class="list-item__link">Terms and Conditions</a></li>
+              <li class="list-item"><a href="#" class="list-item__link">Privacy Policy</a></li>
+              <li class="list-item"><a href="#" class="list-item__link">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
