@@ -217,6 +217,8 @@ p {
         background: #EEEEEE;
         border-radius: 5px;
         width: 240px;
+        margin-left: 0;
+        margin-right: 0;
 
         .price-tex {
             font-size: 18px;
@@ -365,6 +367,8 @@ p {
     }
 
     .parent__skills {
+        margin-bottom: 52px;
+
         h2 {
             margin-bottom: 37px;
             width: 241px;
@@ -372,6 +376,7 @@ p {
 
         .skills__grid {
             grid-template-columns: 30% 60%;
+            grid-column-gap: 10px;
         }
 
         .block-text__subtitle {
@@ -394,6 +399,126 @@ p {
 
         .block-right__top {
             grid-column-gap: 10px;
+        }
+
+        .grid__block-right {
+            grid-row-gap: 10px;
+            grid-template-rows: 465px 1fr;
+        }
+
+        .block-text__pad {
+            padding-left: 16px;
+        }
+
+        .block-right__bottom {
+            .grid__block-text {
+                padding: 22px 0;
+
+            }
+        }
+
+        .skills__grid {
+            transform: translateX(10px);
+        }
+    }
+
+    .parent__about-us {
+        margin-bottom: 84px;
+
+        .about-us__subtitle {
+            font-size: 14px;
+            width: 321px;
+        }
+
+        .title-h1 {
+            font-size: 22px;
+        }
+
+        .about-us__block-flex {
+            .subtitle {
+                font-size: 13px;
+            }
+        }
+
+        .block-right__img {
+            width: 295px;
+            height: 295px;
+        }
+    }
+
+    .parent__pricing {
+        margin-bottom: 65px;
+
+        .block-flex-one {
+            width: 197px;
+        }
+
+        .pricing__title {
+            margin-bottom: 31px;
+        }
+
+        .block-flex-img {
+            width: 100%;
+            height: auto;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            width: 100%;
+        }
+
+        .title-h2 {
+            margin: 23px 0 15px 0;
+        }
+
+        .price {
+            font-size: 22px;
+        }
+
+        .block-flex__price {
+            width: 100%;
+        }
+
+        .block-flex-img-center {
+            margin-top: 12px;
+        }
+
+        .mar-none {
+            margin: 0;
+        }
+
+        .transform-two {
+            transform: translateY(44px);
+        }
+
+        .transform-three {
+            transform: translateY(36px);
+        }
+    }
+
+    .parent__contact-us {
+        margin-bottom: 112px;
+
+        .left__img {
+            width: 233px;
+            height: auto;
+        }
+
+        .right__title {
+            width: 169px;
+            font-size: 30px;
+        }
+
+        .right__subtitle {
+            width: 389px;
+        }
+
+        .block-input__input {
+            width: 283px;
+        }
+
+        .block-input__btn {
+            padding: 15px 40px;
         }
     }
 }

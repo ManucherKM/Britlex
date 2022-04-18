@@ -73,7 +73,7 @@
                 <div class="grid__container">
 
                   <div class="grid__block-text">
-                    <div>
+                    <div class="block-text__pad">
                       <h3 class="block-text__title title-h2">Listening</h3>
                       <p class="block-text__subtitle">Here you can find activities to practise
                         your listening skills. Listening will help you
@@ -126,7 +126,6 @@
         <div class="about-us__block-right">
           <img src="../assets/img/about-us-img.png" alt="Photo" class="block-right__img">
         </div>
-
       </div>
       <div class="parent__pricing">
         <h2 class="pricing__title title-h1 text-center">Pricing</h2>
@@ -144,24 +143,24 @@
             </div>
           </div>
           <div class="block-flex-one">
-            <img src="../assets/img/live-classes.png" alt="Photo" class="block-flex-img">
+            <img src="../assets/img/live-classes.png" alt="Photo" class="block-flex-img block-flex-img-center">
             <h3 class="block-flex__title title-h2">Live online classes</h3>
             <p class="block-flex__subtitle subtitle">
               Interactive group classes with expert
               teachers. Free 7-day trial
             </p>
-            <div class="block-flex__price text-center mar-top">
+            <div class="block-flex__price text-center mar-top transform-two">
               <p class="price-text"><span class="price">£12.99</span> per month</p>
             </div>
           </div>
-          <div class="block-flex-one">
+          <div class="block-flex-one block-flex-one-tran">
             <img src="../assets/img/personal-tutorial.png" alt="Photo" class="block-flex-img">
-            <h3 class="block-flex__title title-h2">Personal Tuition</h3>
+            <h3 class="block-flex__title title-h2 mar-none">Personal Tuition</h3>
             <p class="block-flex__subtitle subtitle">
               Online one-to-one English tutoring – enjoy
               our first session for only $1
             </p>
-            <div class="block-flex__price text-center">
+            <div class="block-flex__price text-center transform-three">
               <p class="price-text"><span class="price">£20.99</span> per month</p>
             </div>
           </div>
