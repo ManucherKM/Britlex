@@ -1,11 +1,12 @@
 <template>
   <div class="parent">
     <NavBarSite />
+
     <main class="parent__main container">
       <div class="parent__header">
         <div class="header__left">
           <h1 class="header__title">
-            Learn<br>Any Foreign Language
+            Learn <span class="header__span"></span> Any Foreign Language
           </h1>
           <p class="header__subtitle subtitle">
             With our teachers who write a program for
@@ -21,12 +22,12 @@
       <div class="parent__skills">
         <h2 class="title-h1 text-center">Skills</h2>
         <div class="skills__grid">
-          <div class="grid__speaking">
+          <div class="grid__speaking mt-ten">
             <div class="grid__container">
               <img src="../assets/img/speaking-img.png" alt="Photo" class="speaking__img">
               <div class="grid__block-text">
                 <h3 class="block-text__title title-h2">Speaking</h3>
-                <p class="block-text__subtitle">Improve your English skills and confidence.
+                <p class="block-text__subtitle w-100">Improve your English skills and confidence.
                   Live classes and interactive lessons online.
                   20% extra free for a limited time only
                   <br>
@@ -41,12 +42,12 @@
           </div>
           <div class="grid__block-right">
             <div class="block-right__top">
-              <div class="block-right__writing">
+              <div class="block-right__writing mt-ten">
                 <div class="grid__container">
                   <img src="../assets/img/writing.png" alt="Photo" class="speaking__img">
                   <div class="grid__block-text">
                     <h3 class="block-text__title title-h2">Writing</h3>
-                    <p class="block-text__subtitle">One of the most important and extensive
+                    <p class="block-text__subtitle w-100">One of the most important and extensive
                       areas of natural science, the science that
                       studies substances, also their composition
                     </p>
@@ -54,12 +55,12 @@
                   </div>
                 </div>
               </div>
-              <div class="block-right__reading">
+              <div class="block-right__reading mt-ten">
                 <div class="grid__container">
                   <img src="../assets/img/reading.png" alt="Photo" class="speaking__img">
                   <div class="grid__block-text">
                     <h3 class="block-text__title title-h2">Reading</h3>
-                    <p class="block-text__subtitle">perception and response actions of the user
+                    <p class="block-text__subtitle w-100">perception and response actions of the user
                       resulting from the use and/or upcoming use
                       of the product, system or service
                     </p>
@@ -68,18 +69,18 @@
                 </div>
               </div>
             </div>
-            <div class="block-right__bottom">
+            <div class="block-right__bottom mt-ten">
               <div class="bottom__listening">
                 <div class="grid__container">
 
                   <div class="grid__block-text">
                     <div class="block-text__pad">
                       <h3 class="block-text__title title-h2">Listening</h3>
-                      <p class="block-text__subtitle">Here you can find activities to practise
+                      <p class="block-text__subtitle w-100">Here you can find activities to practise
                         your listening skills. Listening will help you
                         to improve your understanding
                       </p>
-                      <button class="btn btn-dark block-text__btn">Learn more</button>
+                      <button class="btn btn-dark block-text__btn btn-m-0">Learn more</button>
                     </div>
                     <div>
                       <img src="../assets/img/listening.img.png" alt="Photo" class="speaking__img">
@@ -96,6 +97,7 @@
           <h1 class="about-us__title title-h1">
             About Us
           </h1>
+          <img src="../assets/img/about-us-img.png" alt="Photo" class="block-right__img-none">
           <p class="about-us__subtitle subtitle">
             The model offers a framework for discussing problems related to the user's experience, as well as possible
             ways and means of solving them. Application development begins at the top level (strategy), where the future

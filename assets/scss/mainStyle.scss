@@ -82,6 +82,10 @@ p {
         position: relative;
     }
 
+    .header__span {
+        padding-left: 70px;
+    }
+
     .header__title::after {
         content: "";
         position: absolute;
@@ -327,6 +331,10 @@ p {
     }
 }
 
+.block-right__img-none {
+    display: none;
+}
+
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0);
     border: none;
@@ -521,4 +529,218 @@ p {
             padding: 15px 40px;
         }
     }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 320px;
+        padding: 0 15px;
+    }
+
+    .title-h1 {
+        font-size: 24px;
+    }
+
+
+
+    .parent__header {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
+
+        .header__title::after {
+            display: none;
+        }
+
+        .skills__grid {
+            display: block;
+        }
+
+        .header__title {
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .header__span {
+            display: none;
+        }
+
+        .header__subtitle {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .left__btn {
+            width: 100%;
+            font-size: 16px;
+        }
+
+        .header__right {
+            order: -1;
+
+            img {
+                width: 299px;
+                height: auto;
+            }
+        }
+
+
+    }
+
+    .skills__grid {
+        transform: translateX(0) !important;
+        display: block !important;
+
+        .grid__block-right {
+            display: block;
+        }
+
+        .block-right__top {
+            display: block;
+        }
+    }
+
+    .navbar {
+        margin-top: 36px;
+        padding: 0;
+
+        .navbar-brand {
+            img {
+                width: 71px;
+                height: auto;
+            }
+        }
+    }
+
+    .mt-ten {
+        margin-bottom: 20px !important;
+    }
+
+    .mt-ten:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .block-text__btn {
+        margin-bottom: 25px;
+    }
+
+    .block-text__subtitle {
+        width: 100%;
+    }
+
+    .grid__block-text {
+        flex-direction: column;
+
+        .btn-m-0 {
+            margin: 0;
+        }
+
+        .block-text__pad {
+            order: 1;
+            margin-top: 20px;
+        }
+    }
+
+    .about-us__block-right {
+        display: none;
+    }
+
+    .block-right__img-none {
+        display: block;
+        width: 95%;
+        height: auto;
+    }
+
+    .about-us__subtitle {
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .about-us__block-flex {
+        flex-direction: column;
+    }
+
+    .parent__pricing {
+        .pricing__block-flex {
+            flex-direction: column;
+
+            .block-flex-one {
+                width: 100%;
+            }
+
+            .transform-two {
+                transform: translateY(0);
+            }
+
+            .transform-three {
+                transform: translateY(0);
+            }
+        }
+    }
+
+    .parent__contact-us {
+        margin-bottom: 60px;
+
+        .contact-us__container-flex {
+            flex-direction: column;
+        }
+
+        .right__title {
+            width: 100%;
+        }
+
+        .right__subtitle {
+            width: 100%;
+        }
+
+        .right__block-input {
+            flex-direction: column;
+
+        }
+
+        .block-input__input {
+            width: 100%;
+
+        }
+
+        .block-input__input[type="text"] {
+            padding-left: 20px;
+        }
+
+        .block-input__btn {
+            width: 100%;
+            margin-top: 17px;
+        }
+
+    }
+
+    .parent__footer {
+        .navbar-brand {
+            img {
+                width: 71px;
+                height: 36px;
+            }
+        }
+
+        .footer-flex {
+            flex-direction: column;
+        }
+
+        .list-item__link {
+            font-size: 11px;
+            white-space: nowrap;
+        }
+
+        .footer__list {
+            margin-top: 15px !important;
+        }
+
+        .list-item {
+            margin-left: 10px !important;
+        }
+    }
+
 }
