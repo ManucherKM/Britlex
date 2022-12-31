@@ -120,6 +120,7 @@ p {
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding: 0 30px;
 }
 .parent__skills .block-text__title {
   margin-top: 5px;
