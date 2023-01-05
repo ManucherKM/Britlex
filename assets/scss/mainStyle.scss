@@ -127,6 +127,7 @@ p {
         background: #F5F5F5;
         border-radius: 0.8em;
         display: flex;
+        padding: 0 30px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -421,7 +422,6 @@ p {
         .block-right__bottom {
             .grid__block-text {
                 padding: 22px 0;
-
             }
         }
 
